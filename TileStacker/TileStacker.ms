@@ -124,6 +124,11 @@ category:"Tiles"
 
 		-- empty temp mesh for all tiles
 		local temp = TriMesh()
+		-- vertex and face arrays for the first face in temp mesh
+		local vertArr = #([0, 0, 0], [1, 0, 0], [1, 1, 0])
+		local faceArr = #([1, 2, 3])
+		-- empty mesh with 1 face for default mapping
+		SetMesh temp vertices:vertArr faces:faceArr
 		
 		-- set and collect 4 rotated tiles 
 		if (randomMatId == true) then
@@ -190,6 +195,8 @@ category:"Tiles"
 				)
 			)
 		)
+		-- delete first face because we don't need it so far
+		meshop.deleteFaces temp 1 delIsoVerts:true
 		-- return temp mesh
 		temp
 	)
