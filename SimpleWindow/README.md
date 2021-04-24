@@ -2,9 +2,9 @@
 
 Script makes fixed window with horiz-vert dividers grid, board and sill. Any part of window can switch on/off, so you can easily change it.
 
-![](/Demo/SimpleWindow_demo_1.gif)
+![](/SimpleWindow/Demo/SimpleWindow_demo_1.gif)
 
-![](/Demo/SimpleWindow_demo_2.gif)
+![](/SimpleWindow/Demo/SimpleWindow_demo_2.gif)
 
 List of mat IDs:
 1. Frame.
