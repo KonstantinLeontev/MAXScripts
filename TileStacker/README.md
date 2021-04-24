@@ -2,7 +2,7 @@
 
 Create tales with random textures.
 
-![](/Demo/TileStacker_demo.gif)
+![](/TileStacker/Demo/TileStacker_demo.gif)
 
 ## Installation
 
