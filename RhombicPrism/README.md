@@ -2,7 +2,7 @@
 
 Script make simple rhombic prism. There's ability to change width, length, height, taper scale, number of height segments. Also provided "Generate Mapping Coords" checkbox.
 
-![](/Demo/RhombicPrism_demo.gif)
+![](/RhombicPrism/Demo/RhombicPrism_demo.gif)
 
 ## Installation
 
